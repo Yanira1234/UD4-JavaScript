@@ -28,7 +28,6 @@ while(i <= 5){
 document.write(suma);
 //Sin terminar
 
-*/
 
 //USO DEL "for" --------------------------------------------------------------------------------------------------------------------------------------------------------
 //Bucle for para sacar por pantalla los numeros del 10 al 0
@@ -36,3 +35,14 @@ var numero;
 for(numero=10; numero>=0; numero--) {
     document.write(numero + "<br>");
 }
+*/
+
+//1*2*3*4*5*6*7*8*9*------------------------------------------
+var producto = 1;
+var i;
+
+for(i = 1; i < 10; i++) {
+    producto = producto * i;
+}
+document.write("El resultado es: " + producto);
+
