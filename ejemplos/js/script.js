@@ -78,13 +78,3 @@ if(!isNaN(examen1) && !isNaN(examen2) && !isNaN(trabajo1) && !isNaN(trabajo2)){
 else{
     alert("Uno de los valores introducidos no es un numero");
 }
-
-
-
-
-
-
-
-
-
-
