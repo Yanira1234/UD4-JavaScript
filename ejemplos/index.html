@@ -1,8 +1,24 @@
 <html>
     <head>
-        <script src="js/bucles.js"></script>
+        <script src="js/funciones.js"></script>
     </head>
     <body>
+        <form>
+            <label for="nombre">Escriba su nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+
+            <!--Un radio button para seleccionar-->
+			<input type="checkbox" id="femenino" name="femenino" value="femenino">
+            <label for="femenino">Femenino</label>
+            <input type="checkbox" id="masculino" name="masculino" value="masculino">
+            <label for="masculino">Masculino</label>
+
+            <input type="button" onclick="escribeNombre();" value="Aceptar">
+        </form>
+
+        <h3 id="resultado">
+
+        </h3>
 
     </body>
 </html>
