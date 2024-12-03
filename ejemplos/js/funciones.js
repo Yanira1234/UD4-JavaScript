@@ -6,8 +6,8 @@ function escribeNombre() {
     //Sustituir el alert por el resultado.
     document.getElementById("resultado").innerHTML = "Su nombre es " + nombre;
 /*   
-    document.getElementById("salida").value;  Esto me rompe todo y ni sé porque
-    de hecho ni sé para que es.
+    document.getElementById("salida").value;  Esto me rompe todo y ni sé porque,
+    de hecho ni sé para qué es.
 */
 
     //Me dice si ha clickado femenino o no.
