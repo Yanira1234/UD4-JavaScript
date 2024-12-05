@@ -7,7 +7,11 @@ function funcion(){
 
     if(socio == true) {
         document.getElementById("p").innerHTML = "El precio total con IVA es: " + ((precio + (precio * iva / 100)) / 10);
+        document.getElementById("p").className = "rojo";
     }else {
         document.getElementById("p").innerHTML = "El precio total con IVA es: " + (precio + (precio * iva / 100));
+        document.getElementById("p").className = "azul";
     }
 }
+
+//No funciona
