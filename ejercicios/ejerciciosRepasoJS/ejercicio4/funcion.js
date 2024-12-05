@@ -3,5 +3,7 @@ function funcion(){
     var iva = document.getElementById("iva").value;
     precio = parseFloat(precio);
 
-    document.getElementById("p").innerHTML = ("El precio total con IVA es: " + (precio + (precio * iva)));
+    document.getElementById("p").innerHTML = "El precio total con IVA es: " + (precio + (precio * iva / 100));
 }
+
+//No funciona

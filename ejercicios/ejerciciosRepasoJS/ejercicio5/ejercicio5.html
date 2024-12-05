@@ -11,12 +11,15 @@
             <input type="number" id="precio" name="precio"><br>
 
 			<label for="iva">IVA </label>
-			<input list="iva">
-			<datalist id="iva">
-				<option value="4">
-				<option value="10">
-				<option value="21">
-			</datalist><br>
+			<select name="iva" id="iva">
+				<option value="4">4%</option>
+				<option value="10">10%</option>
+				<option value="21">21%</option>
+			</select><br>
+
+			<input type="checkbox" name="socio" id="socio" value="css">
+			<label for="socio">Socio (10% de descuento)</label><br>
+
 			<p id="p"></p>
 			
             <input type="button" onclick="funcion();" value="calcular">
